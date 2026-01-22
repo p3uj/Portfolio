@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fix anchor scroll offset */
+section {
+  scroll-margin-top: 70px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
