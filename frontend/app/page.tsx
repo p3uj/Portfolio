@@ -7,21 +7,13 @@ import Contact from "./contact/contact";
 
 export default function Page() {
   return (
-    <div>
+    <div className="flex flex-col h-screen bg-red-500">
       <Navbar />
-      <main>
-        <section id="home">
-          <Home />
-        </section>
-        <section id="about">
-          <About />
-        </section>
-        <section id="project">
-          <Project />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
+      <main className="flex flex-col h-full bg-blue-500">
+        <Home />
+        <About />
+        <Project />
+        <Contact />
         <Footer />
       </main>
     </div>
