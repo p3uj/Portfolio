@@ -2,7 +2,7 @@
 
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" className="h-screen">
       <h1>About Page!</h1>
     </section>
   );
