@@ -7,9 +7,9 @@ import Contact from "./contact/contact";
 
 export default function Page() {
   return (
-    <div className="flex flex-col h-screen bg-red-500">
+    <div className="flex flex-col size-full pl-[50px] pr-[50px]">
       <Navbar />
-      <main className="flex flex-col h-full bg-blue-500">
+      <main className="flex flex-col h-full">
         <Home />
         <About />
         <Project />
